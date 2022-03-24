@@ -1,23 +1,25 @@
-/* .navbar {
+.navbar {
   border: 1px solid black;
-  height: 80px;
+  height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
-  position: sticky;
+  background-color: lightblue;
 }
 
-.navbar-container {
+/* .navbar-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100px;
+  height: 200px;
   max-width: 1500px;
-}
+  background-color: red;
+} */
 
 .navbar-logo {
   justify-self: start;
   margin-left: 20px;
+  margin-right: auto;
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
@@ -25,14 +27,14 @@
   align-items: center;
 }
 
-.nav-menu {
+/* .nav-menu {
   list-style: none;
-}
+} */
 
-.nav-item {
-}
+/* .nav-item {
+} */
 
-.nav-links {
+/* .nav-links {
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -40,7 +42,9 @@
   height: 100%;
 } */
 
-.navbar {
+/*------------------------*/
+
+/* .navbar {
   background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
   height: 80px;
   display: flex;
@@ -115,4 +119,4 @@
 
 .menu-icon {
   display: none;
-}
+} */
