@@ -1,5 +1,5 @@
 .navbar-container {
-  background-color: lightgrey;
+  box-shadow: 0px 3px 5px rgb(100 100 100 / 10%);
   height: 90px;
   max-width: 1500px;
   display: flex;
@@ -8,7 +8,7 @@
 }
 
 .navbar-logo {
-  color: white;
+  color: rgb(175, 175, 175);
   display: flex;
   justify-self: start;
   align-items: center;
@@ -33,7 +33,7 @@
 }
 
 .nav-links {
-  color: white;
+  color: rgb(124, 124, 124);
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -42,19 +42,18 @@
 }
 
 .nav-links:hover {
-  background-color: #acacac;
+  background-color: #ececec;
   border-radius: 4px;
   transition: all 0.2s ease-out;
 }
 
 .menu-icon {
   display: none;
-  color: white;
+  color: rgb(175, 175, 175);
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .navbar-container {
-    background-color: blue;
     position: relative;
   }
 
@@ -69,7 +68,6 @@
   }
 
   .nav-menu.active {
-    background: #6668f4;
     left: 0;
     transition: all 0.5s ease;
     width: 100%;
@@ -86,7 +84,7 @@
   }
 
   .nav-links:hover {
-    background-color: #acacac;
+    background-color: #ececec;
     border-radius: 0;
   }
 
@@ -103,8 +101,16 @@
     position: absolute;
     top: 0;
     right: 0;
-    transform: translate(-90%, 80%);
-    font-size: 1.8rem;
     cursor: pointer;
+  }
+
+  .fa-bars {
+    transform: translate(-22px, 30.6px);
+    font-size: 1.8rem;
+  }
+
+  .fa-times {
+    transform: translate(-22px, 27.4px);
+    font-size: 2.2rem;
   }
 }
