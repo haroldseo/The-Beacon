@@ -1,0 +1,63 @@
+.home-container {
+  margin: 90px 0 0 0;
+}
+
+.hero-section {
+  background-image: url("../../../public/images/LA-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 0 4rem;
+}
+
+.hero-title {
+  color: rgb(124, 124, 124);
+  display: flex;
+  flex-direction: column;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: lighter;
+  align-items: center;
+  padding-top: 8rem;
+}
+
+.hero-title span {
+  font-size: 4rem;
+}
+
+.title {
+  font-family: "Karla";
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  font-weight: 200;
+  color: rgb(124, 124, 124);
+  padding: 2rem;
+}
+
+.desc {
+  font-family: "Karla";
+  letter-spacing: 1px;
+  font-size: 1.8rem;
+  line-height: 40px;
+}
+
+.home-content {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 15rem;
+}
+
+@media screen and (max-width: 700px) {
+  .hero-section {
+    padding: 0;
+  }
+}
