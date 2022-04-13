@@ -9,9 +9,6 @@
   background-position: center center;
   width: 100%;
   height: 100vh;
-  display: flex;
-  justify-content: center;
-  padding: 0 4rem;
 }
 
 .hero-title {
@@ -36,7 +33,7 @@
   font-size: 1.3rem;
   font-weight: 200;
   color: rgb(124, 124, 124);
-  padding: 2rem;
+  margin-bottom: 2rem;
 }
 
 .desc {
@@ -44,6 +41,7 @@
   letter-spacing: 1px;
   font-size: 1.8rem;
   line-height: 40px;
+  text-align: center;
 }
 
 .home-content {
@@ -53,7 +51,16 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0 15rem;
+  padding: 0 13rem;
+}
+
+.home-image {
+  background-image: url("../../../public/images/LA-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 70vh;
 }
 
 @media screen and (max-width: 700px) {

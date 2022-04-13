@@ -1,5 +1,5 @@
 .navbar-container {
-  /* box-shadow: 0px 3px 5px rgb(100 100 100 / 10%); */
+  box-shadow: 0px 3px 5px rgb(100 100 100 / 10%);
   height: 90px;
   max-width: 1500px;
   display: flex;

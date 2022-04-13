@@ -18,6 +18,7 @@ function Home() {
             servants into the world.
           </p>
         </section>
+        <section className='home-image'></section>
         <section className='home-content'>
           <h4 className='title'>Our Vision</h4>
           <p className='desc'>
