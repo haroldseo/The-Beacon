@@ -6,14 +6,26 @@ import "./Navbar.css";
 
 function Navbar() {
   const [click, setClick] = useState(false);
+  const [navbarContainer, setNavbarContainer] = useState(false);
 
   const handleClick = () => {
     setClick(!click);
   };
+
+  const navbarScroll = () => {
+    if (window.scrollY >= 90) {
+      setNavbarContainer(true);
+    } else {
+      setNavbarContainer(false);
+    }
+  };
+
+  window.addEventListener("scroll", navbarScroll);
+
   return (
     <>
       <nav className='navbar'>
-        <div className='navbar-container'>
+        <div className={navbarContainer ? "navbar-container scroll" : "navbar-container"}>
           <Link to='/' className='navbar-logo'>
             <BiChurch />
           </Link>
